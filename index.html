@@ -5,23 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OdilCoder | Profil</title>
     <style>
-        body { font-family: sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        .card { background: white; padding: 40px; border-radius: 25px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); text-align: center; max-width: 350px; width: 90%; }
-        .icon-circle { width: 80px; height: 80px; background: #0088cc; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin: 0 auto 20px; }
-        .icon-circle svg { width: 45px; fill: white; }
-        h1 { color: #333; font-size: 24px; }
-        p { color: #666; margin-bottom: 25px; }
-        .btn { display: inline-block; background-color: #0088cc; color: white; text-decoration: none; padding: 15px 30px; border-radius: 15px; font-weight: bold; }
+        /* Umumiy ko'rinish */
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: #f4f4f7; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            color: #222;
+        }
+
+        /* Markaziy karta */
+        .card { 
+            background: #ffffff; 
+            padding: 40px 20px; 
+            border-radius: 25px; 
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); 
+            text-align: center; 
+            max-width: 350px; 
+            width: 90%; 
+        }
+
+        /* Telegram logotipi uchun ko'k doira */
+        .icon-circle { 
+            width: 80px; 
+            height: 80px; 
+            background: #0088cc; 
+            border-radius: 50%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            margin: 0 auto 20px; 
+            box-shadow: 0 8px 20px rgba(0, 136, 204, 0.3);
+        }
+
+        .icon-circle svg { 
+            width: 45px; 
+            fill: white; 
+        }
+
+        h1 { 
+            margin-bottom: 10px; 
+            font-size: 24px; 
+        }
+
+        p { 
+            color: #666; 
+            margin-bottom: 30px; 
+            font-size: 16px;
+        }
+
+        /* Chiroyli tugma */
+        .btn { 
+            display: inline-block; 
+            background-color: #0088cc; 
+            color: white; 
+            text-decoration: none; 
+            padding: 15px 35px; 
+            border-radius: 18px; 
+            font-weight: bold; 
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #0077b5;
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
+
     <div class="card">
         <div class="icon-circle">
-            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.93 1.23-5.46 3.62-.51.35-.98.52-1.4.51-.46-.01-1.35-.26-2.01-.48-.81-.27-1.45-.42-1.39-.89.03-.25.38-.51 1.07-.78 4.2-1.82 7-3.03 8.4-3.61 4-.17 4.83.12 4.84 1.15z"/></svg>
+            <svg viewBox="0 0 24 24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.11.02-1.93 1.23-5.46 3.62-.51.35-.98.52-1.4.51-.46-.01-1.35-.26-2.01-.48-.81-.27-1.45-.42-1.39-.89.03-.25.38-.51 1.07-.78 4.2-1.82 7-3.03 8.4-3.61 4-.17 4.83.12 4.84 1.15z"/>
+            </svg>
         </div>
-        <h1>OdilCoder</h1>
+
+        <h1>Odil</h1>
         <p>Mening shaxsiy sahifamga xush kelibsiz!</p>
-        <a href="https://t.me/odilbekmavlonov01" class="btn">Telegramda ochish</a>
+
+        <a href="https://t.me/odil_offff" class="btn">Telegramda ochish</a>
     </div>
+
 </body>
 </html>
